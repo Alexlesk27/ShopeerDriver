@@ -25,13 +25,23 @@
         android:orientation="vertical"
         android:layout_marginTop="80dp">
 
+
         <EditText
+            android:id="@+id/my_id_EditText"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:hint="Digite o seu usuário"
+            android:layout_marginBottom="20dp"/>
+
+        <EditText
+            android:id="@+id/my_address_EditText"
             android:layout_width="300dp"
             android:layout_height="60dp"
             android:hint="Digite o seu endereço"
             android:layout_marginBottom="20dp"/>
 
         <EditText
+            android:id="@+id/destination_address_EdiText"
             android:layout_width="300dp"
             android:layout_height="60dp"
             android:hint="Digite o endereço do destino"
@@ -39,6 +49,7 @@
             android:layout_marginBottom="20dp"/>
 
         <Button
+            android:id="@+id/confirm_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center"
