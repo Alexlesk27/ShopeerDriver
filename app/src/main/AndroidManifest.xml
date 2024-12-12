@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools" >
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:name=".MyApp"
@@ -13,10 +15,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ShopeerDriver"
         tools:targetApi="31" >
-        
-        <meta-data
-            android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyDImAubCvTvUGWGBQ64g3H9qmrj8F9DqwU" />
 
         <activity
             android:name=".MapsActivity"
